@@ -4,7 +4,10 @@ def check(y):
   if y<2:
     print("The door is locked")
 
-x=100
-for i in range(x):
-  print(x)
-  sleep(2)
+def passer(name="user"):
+  print("Hello {}!!!".format(name))
+  print("database has been completed")
+
+  if __name__=="__main__":
+    passer("Kofi")
+    print("The application is working well")
