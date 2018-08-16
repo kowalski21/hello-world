@@ -10,7 +10,10 @@ def passer(name="user"):
 
 def hello(name="Kwame"):
   print("Hello "+ name)
-  
+
+  def divide(x,y):
+    return y/x
+
   if __name__=="__main__":
     passer("Kofi")
     print("The application is working well")
