@@ -13,7 +13,7 @@ def hello(name="Kwame"):
 
   def divide(x,y):
     return y/x
-
+#checking to see if this would work
   if __name__=="__main__":
     passer("Kofi")
     print("The application is working well")
