@@ -8,6 +8,9 @@ def passer(name="user"):
   print("Hello {}!!!".format(name))
   print("database has been completed")
 
+def hello(name="Kwame"):
+  print("Hello "+ name)
+  
   if __name__=="__main__":
     passer("Kofi")
     print("The application is working well")
