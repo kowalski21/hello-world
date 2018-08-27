@@ -17,3 +17,6 @@ def hello(name="Kwame"):
   if __name__=="__main__":
     passer("Kofi")
     print("The application is working well")
+
+def newChange():
+  print("I have made a new change from Dela")
